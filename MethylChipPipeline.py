@@ -45,7 +45,7 @@ def MethylChip(args, scriptpath):
     dmrCores = yamldict["dmrcores"]
     maxGap = yamldict["maxGap"]
     adjPprobe = yamldict["adjPprobe"]
-    bpScan = yamldict["bpScan"]
+    bpSpan = yamldict["bpSpan"]
     compGroup = " ".join(yamldict["compGroup"])
     gseaMethod = yamldict["gseaMethod"]
     gseaPvalue = yamldict["gseaPvalue"]
@@ -58,14 +58,14 @@ def MethylChip(args, scriptpath):
                      "--filterXY {filterXY} --detPfile {detPfile} --analysis {Analysis} --normmethod {normMethod} "
                      "--cores {Cores} --diffexprprobeP {diffexprProbeP} --dmrmethod {dmrMethod} --minProbe {minProbe} "
                      "--diffexprregionP {diffexprRegionP} --dmrcores {dmrCores} --maxGap {maxGap} --adjPprobe {adjPprobe} "
-                     "--bpScan {bpScan} --compareGroup '{compGroup}' --gseaMethod {gseaMethod} --gseaPvalue {gseaPvalue} "
+                     "--bpSpan {bpSpan} --compareGroup '{compGroup}' --gseaMethod {gseaMethod} --gseaPvalue {gseaPvalue} "
                      "--controlGroup {controlGroup} --freqThreshold {freqThreshold} --sampleType {sampleType}".format(scriptpath = scriptpath, Import = Import,
                       Pdfile = Pdfile, matrixfile = matrixfile, chipType = chipType, Directory = Directory, Loadmethod = Loadmethod,
                       probeCutoff = probeCutoff, sampleCutoff = sampleCutoff, detPcut = detPcut, Population = Population,
                       filterXY = filterXY, detPfile = detPfile, Analysis = Analysis, normMethod = normMethod,
                       Cores = Cores, diffexprProbeP = diffexprProbeP, dmrMethod = dmrMethod, minProbe = minProbe,
                       diffexprRegionP = diffexprRegionP, dmrCores = dmrCores, maxGap = maxGap, adjPprobe = adjPprobe,
-                      bpScan = bpScan, compGroup = compGroup, gseaMethod = gseaMethod, gseaPvalue = gseaPvalue,
+                      bpSpan = bpSpan, compGroup = compGroup, gseaMethod = gseaMethod, gseaPvalue = gseaPvalue,
                       controlGroup = controlGroup, freqThreshold = freqThreshold, sampleType = sampleType))
     subprocess.Popen("Rscript {scriptpath}/Methyl_Chip_Analysis.R --import {Import} --pdfile {Pdfile} --matrixfile "
                      "{matrixfile} --arraytype {chipType} --directory {Directory} --loadmethod {Loadmethod} "
@@ -73,14 +73,14 @@ def MethylChip(args, scriptpath):
                      "--filterXY {filterXY} --detPfile {detPfile} --analysis {Analysis} --normmethod {normMethod} "
                      "--cores {Cores} --diffexprprobeP {diffexprProbeP} --dmrmethod {dmrMethod} --minProbe {minProbe} "
                      "--diffexprregionP {diffexprRegionP} --dmrcores {dmrCores} --maxGap {maxGap} --adjPprobe {adjPprobe} "
-                     "--bpScan {bpScan} --compareGroup '{compGroup}' --gseaMethod {gseaMethod} --gseaPvalue {gseaPvalue} "
+                     "--bpSpan {bpSpan} --compareGroup '{compGroup}' --gseaMethod {gseaMethod} --gseaPvalue {gseaPvalue} "
                      "--controlGroup {controlGroup} --freqThreshold {freqThreshold} --sampleType {sampleType}".format(scriptpath = scriptpath, Import = Import,
                       Pdfile = Pdfile, matrixfile = matrixfile, chipType = chipType, Directory = Directory, Loadmethod = Loadmethod,
                       probeCutoff = probeCutoff, sampleCutoff = sampleCutoff, detPcut = detPcut, Population = Population,
                       filterXY = filterXY, detPfile = detPfile, Analysis = Analysis, normMethod = normMethod,
                       Cores = Cores, diffexprProbeP = diffexprProbeP, dmrMethod = dmrMethod, minProbe = minProbe,
                       diffexprRegionP = diffexprRegionP, dmrCores = dmrCores, maxGap = maxGap, adjPprobe = adjPprobe,
-                      bpScan = bpScan, compGroup = compGroup, gseaMethod = gseaMethod, gseaPvalue = gseaPvalue,
+                      bpSpan = bpSpan, compGroup = compGroup, gseaMethod = gseaMethod, gseaPvalue = gseaPvalue,
                       controlGroup = controlGroup, freqThreshold = freqThreshold, sampleType = sampleType), shell=True)
 
 def main(args, scriptpath):

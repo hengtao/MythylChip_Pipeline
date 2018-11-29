@@ -32,7 +32,7 @@ cores: 2
 # 差显探针校正后阈值
 diffexprProbeP: 0.05
 # 差显区域检测方法。可选方法：Bumphunter、DMRcate、Probelasso
-dmrMethod: ProbeLasso
+dmrMethod: Bumphunter
 # DMR区域最小探针数
 minProbe: 7
 # 差显区域的P值
@@ -44,12 +44,10 @@ maxGap: 300
 # 探针是否被包含在DMR中的最小P值
 adjPprobe: 0.05
 # 差显甲基化块的最大阈值
-bpScan: 250000
+bpSpan: 250000
 # 比较组。两个比较组用“_vs_”隔开
 compGroup: 
-    - A_vs_B
-    - B_vs_C
-    - C_vs_D
+    - C_vs_T
 # 基因集富集方法。可选方法：gometh，fisher，ebayes
 gseaMethod: gometh
 gseaPvalue: 0.05

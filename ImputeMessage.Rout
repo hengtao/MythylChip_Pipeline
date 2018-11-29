@@ -1,0 +1,1468 @@
+    Doing imputation on beta matrix.
+Cluster size 484562 broken into 224662 259900 
+Cluster size 224662 broken into 60816 163846 
+Cluster size 60816 broken into 43316 17500 
+Cluster size 43316 broken into 20950 22366 
+Cluster size 20950 broken into 11834 9116 
+Cluster size 11834 broken into 9472 2362 
+Cluster size 9472 broken into 5903 3569 
+Cluster size 5903 broken into 2976 2927 
+Cluster size 2976 broken into 1776 1200 
+Cluster size 1776 broken into 757 1019 
+Done cluster 757 
+Done cluster 1019 
+Done cluster 1776 
+Done cluster 1200 
+Done cluster 2976 
+Cluster size 2927 broken into 1847 1080 
+Cluster size 1847 broken into 1181 666 
+Done cluster 1181 
+Done cluster 666 
+Done cluster 1847 
+Done cluster 1080 
+Done cluster 2927 
+Done cluster 5903 
+Cluster size 3569 broken into 2105 1464 
+Cluster size 2105 broken into 697 1408 
+Done cluster 697 
+Done cluster 1408 
+Done cluster 2105 
+Done cluster 1464 
+Done cluster 3569 
+Done cluster 9472 
+Cluster size 2362 broken into 678 1684 
+Done cluster 678 
+Cluster size 1684 broken into 655 1029 
+Done cluster 655 
+Done cluster 1029 
+Done cluster 1684 
+Done cluster 2362 
+Done cluster 11834 
+Cluster size 9116 broken into 3603 5513 
+Cluster size 3603 broken into 2094 1509 
+Cluster size 2094 broken into 604 1490 
+Done cluster 604 
+Done cluster 1490 
+Done cluster 2094 
+Cluster size 1509 broken into 625 884 
+Done cluster 625 
+Done cluster 884 
+Done cluster 1509 
+Done cluster 3603 
+Cluster size 5513 broken into 1336 4177 
+Done cluster 1336 
+Cluster size 4177 broken into 2347 1830 
+Cluster size 2347 broken into 1722 625 
+Cluster size 1722 broken into 756 966 
+Done cluster 756 
+Done cluster 966 
+Done cluster 1722 
+Done cluster 625 
+Done cluster 2347 
+Cluster size 1830 broken into 1136 694 
+Done cluster 1136 
+Done cluster 694 
+Done cluster 1830 
+Done cluster 4177 
+Done cluster 5513 
+Done cluster 9116 
+Done cluster 20950 
+Cluster size 22366 broken into 13073 9293 
+Cluster size 13073 broken into 8487 4586 
+Cluster size 8487 broken into 4271 4216 
+Cluster size 4271 broken into 2531 1740 
+Cluster size 2531 broken into 1401 1130 
+Done cluster 1401 
+Done cluster 1130 
+Done cluster 2531 
+Cluster size 1740 broken into 21 1719 
+Done cluster 21 
+Cluster size 1719 broken into 875 844 
+Done cluster 875 
+Done cluster 844 
+Done cluster 1719 
+Done cluster 1740 
+Done cluster 4271 
+Cluster size 4216 broken into 1597 2619 
+Cluster size 1597 broken into 818 779 
+Done cluster 818 
+Done cluster 779 
+Done cluster 1597 
+Cluster size 2619 broken into 1448 1171 
+Done cluster 1448 
+Done cluster 1171 
+Done cluster 2619 
+Done cluster 4216 
+Done cluster 8487 
+Cluster size 4586 broken into 2220 2366 
+Cluster size 2220 broken into 1077 1143 
+Done cluster 1077 
+Done cluster 1143 
+Done cluster 2220 
+Cluster size 2366 broken into 1318 1048 
+Done cluster 1318 
+Done cluster 1048 
+Done cluster 2366 
+Done cluster 4586 
+Done cluster 13073 
+Cluster size 9293 broken into 5198 4095 
+Cluster size 5198 broken into 1997 3201 
+Cluster size 1997 broken into 1235 762 
+Done cluster 1235 
+Done cluster 762 
+Done cluster 1997 
+Cluster size 3201 broken into 1359 1842 
+Done cluster 1359 
+Cluster size 1842 broken into 737 1105 
+Done cluster 737 
+Done cluster 1105 
+Done cluster 1842 
+Done cluster 3201 
+Done cluster 5198 
+Cluster size 4095 broken into 1671 2424 
+Cluster size 1671 broken into 496 1175 
+Done cluster 496 
+Done cluster 1175 
+Done cluster 1671 
+Cluster size 2424 broken into 1279 1145 
+Done cluster 1279 
+Done cluster 1145 
+Done cluster 2424 
+Done cluster 4095 
+Done cluster 9293 
+Done cluster 22366 
+Done cluster 43316 
+Cluster size 17500 broken into 10475 7025 
+Cluster size 10475 broken into 5338 5137 
+Cluster size 5338 broken into 3637 1701 
+Cluster size 3637 broken into 1323 2314 
+Done cluster 1323 
+Cluster size 2314 broken into 781 1533 
+Done cluster 781 
+Cluster size 1533 broken into 622 911 
+Done cluster 622 
+Done cluster 911 
+Done cluster 1533 
+Done cluster 2314 
+Done cluster 3637 
+Cluster size 1701 broken into 1111 590 
+Done cluster 1111 
+Done cluster 590 
+Done cluster 1701 
+Done cluster 5338 
+Cluster size 5137 broken into 1549 3588 
+Cluster size 1549 broken into 591 958 
+Done cluster 591 
+Done cluster 958 
+Done cluster 1549 
+Cluster size 3588 broken into 1888 1700 
+Cluster size 1888 broken into 886 1002 
+Done cluster 886 
+Done cluster 1002 
+Done cluster 1888 
+Cluster size 1700 broken into 938 762 
+Done cluster 938 
+Done cluster 762 
+Done cluster 1700 
+Done cluster 3588 
+Done cluster 5137 
+Done cluster 10475 
+Cluster size 7025 broken into 3972 3053 
+Cluster size 3972 broken into 1769 2203 
+Cluster size 1769 broken into 854 915 
+Done cluster 854 
+Done cluster 915 
+Done cluster 1769 
+Cluster size 2203 broken into 847 1356 
+Done cluster 847 
+Done cluster 1356 
+Done cluster 2203 
+Done cluster 3972 
+Cluster size 3053 broken into 1658 1395 
+Cluster size 1658 broken into 768 890 
+Done cluster 768 
+Done cluster 890 
+Done cluster 1658 
+Done cluster 1395 
+Done cluster 3053 
+Done cluster 7025 
+Done cluster 17500 
+Done cluster 60816 
+Cluster size 163846 broken into 123000 40846 
+Cluster size 123000 broken into 67605 55395 
+Cluster size 67605 broken into 31160 36445 
+Cluster size 31160 broken into 11144 20016 
+Cluster size 11144 broken into 5618 5526 
+Cluster size 5618 broken into 3674 1944 
+Cluster size 3674 broken into 2117 1557 
+Cluster size 2117 broken into 1172 945 
+Done cluster 1172 
+Done cluster 945 
+Done cluster 2117 
+Cluster size 1557 broken into 1208 349 
+Done cluster 1208 
+Done cluster 349 
+Done cluster 1557 
+Done cluster 3674 
+Cluster size 1944 broken into 1243 701 
+Done cluster 1243 
+Done cluster 701 
+Done cluster 1944 
+Done cluster 5618 
+Cluster size 5526 broken into 3206 2320 
+Cluster size 3206 broken into 2018 1188 
+Cluster size 2018 broken into 822 1196 
+Done cluster 822 
+Done cluster 1196 
+Done cluster 2018 
+Done cluster 1188 
+Done cluster 3206 
+Cluster size 2320 broken into 1348 972 
+Done cluster 1348 
+Done cluster 972 
+Done cluster 2320 
+Done cluster 5526 
+Done cluster 11144 
+Cluster size 20016 broken into 8069 11947 
+Cluster size 8069 broken into 6090 1979 
+Cluster size 6090 broken into 4305 1785 
+Cluster size 4305 broken into 2057 2248 
+Cluster size 2057 broken into 1053 1004 
+Done cluster 1053 
+Done cluster 1004 
+Done cluster 2057 
+Cluster size 2248 broken into 1116 1132 
+Done cluster 1116 
+Done cluster 1132 
+Done cluster 2248 
+Done cluster 4305 
+Cluster size 1785 broken into 929 856 
+Done cluster 929 
+Done cluster 856 
+Done cluster 1785 
+Done cluster 6090 
+Cluster size 1979 broken into 1638 341 
+Cluster size 1638 broken into 858 780 
+Done cluster 858 
+Done cluster 780 
+Done cluster 1638 
+Done cluster 341 
+Done cluster 1979 
+Done cluster 8069 
+Cluster size 11947 broken into 5855 6092 
+Cluster size 5855 broken into 2248 3607 
+Cluster size 2248 broken into 956 1292 
+Done cluster 956 
+Done cluster 1292 
+Done cluster 2248 
+Cluster size 3607 broken into 1878 1729 
+Cluster size 1878 broken into 1147 731 
+Done cluster 1147 
+Done cluster 731 
+Done cluster 1878 
+Cluster size 1729 broken into 904 825 
+Done cluster 904 
+Done cluster 825 
+Done cluster 1729 
+Done cluster 3607 
+Done cluster 5855 
+Cluster size 6092 broken into 2759 3333 
+Cluster size 2759 broken into 1317 1442 
+Done cluster 1317 
+Done cluster 1442 
+Done cluster 2759 
+Cluster size 3333 broken into 2051 1282 
+Cluster size 2051 broken into 752 1299 
+Done cluster 752 
+Done cluster 1299 
+Done cluster 2051 
+Done cluster 1282 
+Done cluster 3333 
+Done cluster 6092 
+Done cluster 11947 
+Done cluster 20016 
+Done cluster 31160 
+Cluster size 36445 broken into 18431 18014 
+Cluster size 18431 broken into 9050 9381 
+Cluster size 9050 broken into 6522 2528 
+Cluster size 6522 broken into 4250 2272 
+Cluster size 4250 broken into 2716 1534 
+Cluster size 2716 broken into 885 1831 
+Done cluster 885 
+Cluster size 1831 broken into 820 1011 
+Done cluster 820 
+Done cluster 1011 
+Done cluster 1831 
+Done cluster 2716 
+Cluster size 1534 broken into 692 842 
+Done cluster 692 
+Done cluster 842 
+Done cluster 1534 
+Done cluster 4250 
+Cluster size 2272 broken into 801 1471 
+Done cluster 801 
+Done cluster 1471 
+Done cluster 2272 
+Done cluster 6522 
+Cluster size 2528 broken into 1075 1453 
+Done cluster 1075 
+Done cluster 1453 
+Done cluster 2528 
+Done cluster 9050 
+Cluster size 9381 broken into 6810 2571 
+Cluster size 6810 broken into 4466 2344 
+Cluster size 4466 broken into 2928 1538 
+Cluster size 2928 broken into 1306 1622 
+Done cluster 1306 
+Cluster size 1622 broken into 568 1054 
+Done cluster 568 
+Done cluster 1054 
+Done cluster 1622 
+Done cluster 2928 
+Cluster size 1538 broken into 908 630 
+Done cluster 908 
+Done cluster 630 
+Done cluster 1538 
+Done cluster 4466 
+Cluster size 2344 broken into 980 1364 
+Done cluster 980 
+Done cluster 1364 
+Done cluster 2344 
+Done cluster 6810 
+Cluster size 2571 broken into 435 2136 
+Done cluster 435 
+Cluster size 2136 broken into 1215 921 
+Done cluster 1215 
+Done cluster 921 
+Done cluster 2136 
+Done cluster 2571 
+Done cluster 9381 
+Done cluster 18431 
+Cluster size 18014 broken into 5659 12355 
+Cluster size 5659 broken into 3935 1724 
+Cluster size 3935 broken into 696 3239 
+Done cluster 696 
+Cluster size 3239 broken into 1674 1565 
+Cluster size 1674 broken into 326 1348 
+Done cluster 326 
+Done cluster 1348 
+Done cluster 1674 
+Cluster size 1565 broken into 639 926 
+Done cluster 639 
+Done cluster 926 
+Done cluster 1565 
+Done cluster 3239 
+Done cluster 3935 
+Cluster size 1724 broken into 1308 416 
+Done cluster 1308 
+Done cluster 416 
+Done cluster 1724 
+Done cluster 5659 
+Cluster size 12355 broken into 962 11393 
+Done cluster 962 
+Cluster size 11393 broken into 6558 4835 
+Cluster size 6558 broken into 2797 3761 
+Cluster size 2797 broken into 705 2092 
+Done cluster 705 
+Cluster size 2092 broken into 1792 300 
+Cluster size 1792 broken into 863 929 
+Done cluster 863 
+Done cluster 929 
+Done cluster 1792 
+Done cluster 300 
+Done cluster 2092 
+Done cluster 2797 
+Cluster size 3761 broken into 2051 1710 
+Cluster size 2051 broken into 726 1325 
+Done cluster 726 
+Done cluster 1325 
+Done cluster 2051 
+Cluster size 1710 broken into 857 853 
+Done cluster 857 
+Done cluster 853 
+Done cluster 1710 
+Done cluster 3761 
+Done cluster 6558 
+Cluster size 4835 broken into 1488 3347 
+Done cluster 1488 
+Cluster size 3347 broken into 986 2361 
+Done cluster 986 
+Cluster size 2361 broken into 1157 1204 
+Done cluster 1157 
+Done cluster 1204 
+Done cluster 2361 
+Done cluster 3347 
+Done cluster 4835 
+Done cluster 11393 
+Done cluster 12355 
+Done cluster 18014 
+Done cluster 36445 
+Done cluster 67605 
+Cluster size 55395 broken into 47225 8170 
+Cluster size 47225 broken into 29454 17771 
+Cluster size 29454 broken into 8761 20693 
+Cluster size 8761 broken into 6435 2326 
+Cluster size 6435 broken into 3126 3309 
+Cluster size 3126 broken into 1906 1220 
+Cluster size 1906 broken into 923 983 
+Done cluster 923 
+Done cluster 983 
+Done cluster 1906 
+Done cluster 1220 
+Done cluster 3126 
+Cluster size 3309 broken into 1087 2222 
+Done cluster 1087 
+Cluster size 2222 broken into 648 1574 
+Done cluster 648 
+Cluster size 1574 broken into 965 609 
+Done cluster 965 
+Done cluster 609 
+Done cluster 1574 
+Done cluster 2222 
+Done cluster 3309 
+Done cluster 6435 
+Cluster size 2326 broken into 1620 706 
+Cluster size 1620 broken into 289 1331 
+Done cluster 289 
+Done cluster 1331 
+Done cluster 1620 
+Done cluster 706 
+Done cluster 2326 
+Done cluster 8761 
+Cluster size 20693 broken into 3813 16880 
+Cluster size 3813 broken into 3022 791 
+Cluster size 3022 broken into 1577 1445 
+Cluster size 1577 broken into 1497 80 
+Done cluster 1497 
+Done cluster 80 
+Done cluster 1577 
+Done cluster 1445 
+Done cluster 3022 
+Done cluster 791 
+Done cluster 3813 
+Cluster size 16880 broken into 7142 9738 
+Cluster size 7142 broken into 3964 3178 
+Cluster size 3964 broken into 1798 2166 
+Cluster size 1798 broken into 742 1056 
+Done cluster 742 
+Done cluster 1056 
+Done cluster 1798 
+Cluster size 2166 broken into 1203 963 
+Done cluster 1203 
+Done cluster 963 
+Done cluster 2166 
+Done cluster 3964 
+Cluster size 3178 broken into 1743 1435 
+Cluster size 1743 broken into 1034 709 
+Done cluster 1034 
+Done cluster 709 
+Done cluster 1743 
+Done cluster 1435 
+Done cluster 3178 
+Done cluster 7142 
+Cluster size 9738 broken into 5366 4372 
+Cluster size 5366 broken into 125 5241 
+Done cluster 125 
+Cluster size 5241 broken into 1970 3271 
+Cluster size 1970 broken into 879 1091 
+Done cluster 879 
+Done cluster 1091 
+Done cluster 1970 
+Cluster size 3271 broken into 2716 555 
+Cluster size 2716 broken into 963 1753 
+Done cluster 963 
+Cluster size 1753 broken into 748 1005 
+Done cluster 748 
+Done cluster 1005 
+Done cluster 1753 
+Done cluster 2716 
+Done cluster 555 
+Done cluster 3271 
+Done cluster 5241 
+Done cluster 5366 
+Cluster size 4372 broken into 2694 1678 
+Cluster size 2694 broken into 1273 1421 
+Done cluster 1273 
+Done cluster 1421 
+Done cluster 2694 
+Cluster size 1678 broken into 1474 204 
+Done cluster 1474 
+Done cluster 204 
+Done cluster 1678 
+Done cluster 4372 
+Done cluster 9738 
+Done cluster 16880 
+Done cluster 20693 
+Done cluster 29454 
+Cluster size 17771 broken into 6336 11435 
+Cluster size 6336 broken into 3038 3298 
+Cluster size 3038 broken into 2613 425 
+Cluster size 2613 broken into 1379 1234 
+Done cluster 1379 
+Done cluster 1234 
+Done cluster 2613 
+Done cluster 425 
+Done cluster 3038 
+Cluster size 3298 broken into 1937 1361 
+Cluster size 1937 broken into 679 1258 
+Done cluster 679 
+Done cluster 1258 
+Done cluster 1937 
+Done cluster 1361 
+Done cluster 3298 
+Done cluster 6336 
+Cluster size 11435 broken into 5857 5578 
+Cluster size 5857 broken into 3255 2602 
+Cluster size 3255 broken into 1537 1718 
+Cluster size 1537 broken into 861 676 
+Done cluster 861 
+Done cluster 676 
+Done cluster 1537 
+Cluster size 1718 broken into 1018 700 
+Done cluster 1018 
+Done cluster 700 
+Done cluster 1718 
+Done cluster 3255 
+Cluster size 2602 broken into 579 2023 
+Done cluster 579 
+Cluster size 2023 broken into 1261 762 
+Done cluster 1261 
+Done cluster 762 
+Done cluster 2023 
+Done cluster 2602 
+Done cluster 5857 
+Cluster size 5578 broken into 473 5105 
+Done cluster 473 
+Cluster size 5105 broken into 358 4747 
+Done cluster 358 
+Cluster size 4747 broken into 1691 3056 
+Cluster size 1691 broken into 910 781 
+Done cluster 910 
+Done cluster 781 
+Done cluster 1691 
+Cluster size 3056 broken into 1437 1619 
+Done cluster 1437 
+Cluster size 1619 broken into 1017 602 
+Done cluster 1017 
+Done cluster 602 
+Done cluster 1619 
+Done cluster 3056 
+Done cluster 4747 
+Done cluster 5105 
+Done cluster 5578 
+Done cluster 11435 
+Done cluster 17771 
+Done cluster 47225 
+Cluster size 8170 broken into 1678 6492 
+Cluster size 1678 broken into 718 960 
+Done cluster 718 
+Done cluster 960 
+Done cluster 1678 
+Cluster size 6492 broken into 2822 3670 
+Cluster size 2822 broken into 1386 1436 
+Done cluster 1386 
+Done cluster 1436 
+Done cluster 2822 
+Cluster size 3670 broken into 3138 532 
+Cluster size 3138 broken into 1319 1819 
+Done cluster 1319 
+Cluster size 1819 broken into 981 838 
+Done cluster 981 
+Done cluster 838 
+Done cluster 1819 
+Done cluster 3138 
+Done cluster 532 
+Done cluster 3670 
+Done cluster 6492 
+Done cluster 8170 
+Done cluster 55395 
+Done cluster 123000 
+Cluster size 40846 broken into 12053 28793 
+Cluster size 12053 broken into 1322 10731 
+Done cluster 1322 
+Cluster size 10731 broken into 7470 3261 
+Cluster size 7470 broken into 3035 4435 
+Cluster size 3035 broken into 2035 1000 
+Cluster size 2035 broken into 886 1149 
+Done cluster 886 
+Done cluster 1149 
+Done cluster 2035 
+Done cluster 1000 
+Done cluster 3035 
+Cluster size 4435 broken into 2140 2295 
+Cluster size 2140 broken into 1362 778 
+Done cluster 1362 
+Done cluster 778 
+Done cluster 2140 
+Cluster size 2295 broken into 1118 1177 
+Done cluster 1118 
+Done cluster 1177 
+Done cluster 2295 
+Done cluster 4435 
+Done cluster 7470 
+Cluster size 3261 broken into 1875 1386 
+Cluster size 1875 broken into 1129 746 
+Done cluster 1129 
+Done cluster 746 
+Done cluster 1875 
+Done cluster 1386 
+Done cluster 3261 
+Done cluster 10731 
+Done cluster 12053 
+Cluster size 28793 broken into 20464 8329 
+Cluster size 20464 broken into 5998 14466 
+Cluster size 5998 broken into 1597 4401 
+Cluster size 1597 broken into 476 1121 
+Done cluster 476 
+Done cluster 1121 
+Done cluster 1597 
+Cluster size 4401 broken into 2890 1511 
+Cluster size 2890 broken into 1423 1467 
+Done cluster 1423 
+Done cluster 1467 
+Done cluster 2890 
+Cluster size 1511 broken into 563 948 
+Done cluster 563 
+Done cluster 948 
+Done cluster 1511 
+Done cluster 4401 
+Done cluster 5998 
+Cluster size 14466 broken into 8548 5918 
+Cluster size 8548 broken into 2937 5611 
+Cluster size 2937 broken into 1467 1470 
+Done cluster 1467 
+Done cluster 1470 
+Done cluster 2937 
+Cluster size 5611 broken into 3113 2498 
+Cluster size 3113 broken into 1607 1506 
+Cluster size 1607 broken into 1089 518 
+Done cluster 1089 
+Done cluster 518 
+Done cluster 1607 
+Cluster size 1506 broken into 398 1108 
+Done cluster 398 
+Done cluster 1108 
+Done cluster 1506 
+Done cluster 3113 
+Cluster size 2498 broken into 1129 1369 
+Done cluster 1129 
+Done cluster 1369 
+Done cluster 2498 
+Done cluster 5611 
+Done cluster 8548 
+Cluster size 5918 broken into 4012 1906 
+Cluster size 4012 broken into 230 3782 
+Done cluster 230 
+Cluster size 3782 broken into 1485 2297 
+Done cluster 1485 
+Cluster size 2297 broken into 1112 1185 
+Done cluster 1112 
+Done cluster 1185 
+Done cluster 2297 
+Done cluster 3782 
+Done cluster 4012 
+Cluster size 1906 broken into 1468 438 
+Done cluster 1468 
+Done cluster 438 
+Done cluster 1906 
+Done cluster 5918 
+Done cluster 14466 
+Done cluster 20464 
+Cluster size 8329 broken into 3115 5214 
+Cluster size 3115 broken into 1821 1294 
+Cluster size 1821 broken into 756 1065 
+Done cluster 756 
+Done cluster 1065 
+Done cluster 1821 
+Done cluster 1294 
+Done cluster 3115 
+Cluster size 5214 broken into 2234 2980 
+Cluster size 2234 broken into 848 1386 
+Done cluster 848 
+Done cluster 1386 
+Done cluster 2234 
+Cluster size 2980 broken into 1097 1883 
+Done cluster 1097 
+Cluster size 1883 broken into 1028 855 
+Done cluster 1028 
+Done cluster 855 
+Done cluster 1883 
+Done cluster 2980 
+Done cluster 5214 
+Done cluster 8329 
+Done cluster 28793 
+Done cluster 40846 
+Done cluster 163846 
+Done cluster 224662 
+Cluster size 259900 broken into 162191 97709 
+Cluster size 162191 broken into 58859 103332 
+Cluster size 58859 broken into 33089 25770 
+Cluster size 33089 broken into 20950 12139 
+Cluster size 20950 broken into 6823 14127 
+Cluster size 6823 broken into 3364 3459 
+Cluster size 3364 broken into 1665 1699 
+Cluster size 1665 broken into 933 732 
+Done cluster 933 
+Done cluster 732 
+Done cluster 1665 
+Cluster size 1699 broken into 1236 463 
+Done cluster 1236 
+Done cluster 463 
+Done cluster 1699 
+Done cluster 3364 
+Cluster size 3459 broken into 2090 1369 
+Cluster size 2090 broken into 1087 1003 
+Done cluster 1087 
+Done cluster 1003 
+Done cluster 2090 
+Done cluster 1369 
+Done cluster 3459 
+Done cluster 6823 
+Cluster size 14127 broken into 5043 9084 
+Cluster size 5043 broken into 2202 2841 
+Cluster size 2202 broken into 1174 1028 
+Done cluster 1174 
+Done cluster 1028 
+Done cluster 2202 
+Cluster size 2841 broken into 1602 1239 
+Cluster size 1602 broken into 705 897 
+Done cluster 705 
+Done cluster 897 
+Done cluster 1602 
+Done cluster 1239 
+Done cluster 2841 
+Done cluster 5043 
+Cluster size 9084 broken into 4055 5029 
+Cluster size 4055 broken into 1570 2485 
+Cluster size 1570 broken into 778 792 
+Done cluster 778 
+Done cluster 792 
+Done cluster 1570 
+Cluster size 2485 broken into 1105 1380 
+Done cluster 1105 
+Done cluster 1380 
+Done cluster 2485 
+Done cluster 4055 
+Cluster size 5029 broken into 2057 2972 
+Cluster size 2057 broken into 1238 819 
+Done cluster 1238 
+Done cluster 819 
+Done cluster 2057 
+Cluster size 2972 broken into 1913 1059 
+Cluster size 1913 broken into 1402 511 
+Done cluster 1402 
+Done cluster 511 
+Done cluster 1913 
+Done cluster 1059 
+Done cluster 2972 
+Done cluster 5029 
+Done cluster 9084 
+Done cluster 14127 
+Done cluster 20950 
+Cluster size 12139 broken into 4472 7667 
+Cluster size 4472 broken into 1415 3057 
+Done cluster 1415 
+Cluster size 3057 broken into 2996 61 
+Cluster size 2996 broken into 1638 1358 
+Cluster size 1638 broken into 782 856 
+Done cluster 782 
+Done cluster 856 
+Done cluster 1638 
+Done cluster 1358 
+Done cluster 2996 
+Done cluster 61 
+Done cluster 3057 
+Done cluster 4472 
+Cluster size 7667 broken into 3596 4071 
+Cluster size 3596 broken into 1476 2120 
+Done cluster 1476 
+Cluster size 2120 broken into 1022 1098 
+Done cluster 1022 
+Done cluster 1098 
+Done cluster 2120 
+Done cluster 3596 
+Cluster size 4071 broken into 2686 1385 
+Cluster size 2686 broken into 1772 914 
+Cluster size 1772 broken into 710 1062 
+Done cluster 710 
+Done cluster 1062 
+Done cluster 1772 
+Done cluster 914 
+Done cluster 2686 
+Done cluster 1385 
+Done cluster 4071 
+Done cluster 7667 
+Done cluster 12139 
+Done cluster 33089 
+Cluster size 25770 broken into 13163 12607 
+Cluster size 13163 broken into 9979 3184 
+Cluster size 9979 broken into 5822 4157 
+Cluster size 5822 broken into 2478 3344 
+Cluster size 2478 broken into 1040 1438 
+Done cluster 1040 
+Done cluster 1438 
+Done cluster 2478 
+Cluster size 3344 broken into 1721 1623 
+Cluster size 1721 broken into 715 1006 
+Done cluster 715 
+Done cluster 1006 
+Done cluster 1721 
+Cluster size 1623 broken into 860 763 
+Done cluster 860 
+Done cluster 763 
+Done cluster 1623 
+Done cluster 3344 
+Done cluster 5822 
+Cluster size 4157 broken into 751 3406 
+Done cluster 751 
+Cluster size 3406 broken into 1355 2051 
+Done cluster 1355 
+Cluster size 2051 broken into 1055 996 
+Done cluster 1055 
+Done cluster 996 
+Done cluster 2051 
+Done cluster 3406 
+Done cluster 4157 
+Done cluster 9979 
+Cluster size 3184 broken into 1169 2015 
+Done cluster 1169 
+Cluster size 2015 broken into 1081 934 
+Done cluster 1081 
+Done cluster 934 
+Done cluster 2015 
+Done cluster 3184 
+Done cluster 13163 
+Cluster size 12607 broken into 8151 4456 
+Cluster size 8151 broken into 3817 4334 
+Cluster size 3817 broken into 926 2891 
+Done cluster 926 
+Cluster size 2891 broken into 1265 1626 
+Done cluster 1265 
+Cluster size 1626 broken into 843 783 
+Done cluster 843 
+Done cluster 783 
+Done cluster 1626 
+Done cluster 2891 
+Done cluster 3817 
+Cluster size 4334 broken into 1475 2859 
+Done cluster 1475 
+Cluster size 2859 broken into 1373 1486 
+Done cluster 1373 
+Done cluster 1486 
+Done cluster 2859 
+Done cluster 4334 
+Done cluster 8151 
+Cluster size 4456 broken into 2454 2002 
+Cluster size 2454 broken into 1025 1429 
+Done cluster 1025 
+Done cluster 1429 
+Done cluster 2454 
+Cluster size 2002 broken into 1105 897 
+Done cluster 1105 
+Done cluster 897 
+Done cluster 2002 
+Done cluster 4456 
+Done cluster 12607 
+Done cluster 25770 
+Done cluster 58859 
+Cluster size 103332 broken into 50954 52378 
+Cluster size 50954 broken into 27905 23049 
+Cluster size 27905 broken into 15100 12805 
+Cluster size 15100 broken into 6653 8447 
+Cluster size 6653 broken into 5221 1432 
+Cluster size 5221 broken into 2983 2238 
+Cluster size 2983 broken into 1232 1751 
+Done cluster 1232 
+Cluster size 1751 broken into 613 1138 
+Done cluster 613 
+Done cluster 1138 
+Done cluster 1751 
+Done cluster 2983 
+Cluster size 2238 broken into 985 1253 
+Done cluster 985 
+Done cluster 1253 
+Done cluster 2238 
+Done cluster 5221 
+Done cluster 1432 
+Done cluster 6653 
+Cluster size 8447 broken into 6566 1881 
+Cluster size 6566 broken into 2542 4024 
+Cluster size 2542 broken into 1408 1134 
+Done cluster 1408 
+Done cluster 1134 
+Done cluster 2542 
+Cluster size 4024 broken into 1997 2027 
+Cluster size 1997 broken into 1029 968 
+Done cluster 1029 
+Done cluster 968 
+Done cluster 1997 
+Cluster size 2027 broken into 851 1176 
+Done cluster 851 
+Done cluster 1176 
+Done cluster 2027 
+Done cluster 4024 
+Done cluster 6566 
+Cluster size 1881 broken into 901 980 
+Done cluster 901 
+Done cluster 980 
+Done cluster 1881 
+Done cluster 8447 
+Done cluster 15100 
+Cluster size 12805 broken into 10129 2676 
+Cluster size 10129 broken into 6479 3650 
+Cluster size 6479 broken into 3449 3030 
+Cluster size 3449 broken into 1317 2132 
+Done cluster 1317 
+Cluster size 2132 broken into 1296 836 
+Done cluster 1296 
+Done cluster 836 
+Done cluster 2132 
+Done cluster 3449 
+Cluster size 3030 broken into 1770 1260 
+Cluster size 1770 broken into 1184 586 
+Done cluster 1184 
+Done cluster 586 
+Done cluster 1770 
+Done cluster 1260 
+Done cluster 3030 
+Done cluster 6479 
+Cluster size 3650 broken into 1509 2141 
+Cluster size 1509 broken into 976 533 
+Done cluster 976 
+Done cluster 533 
+Done cluster 1509 
+Cluster size 2141 broken into 923 1218 
+Done cluster 923 
+Done cluster 1218 
+Done cluster 2141 
+Done cluster 3650 
+Done cluster 10129 
+Cluster size 2676 broken into 1713 963 
+Cluster size 1713 broken into 817 896 
+Done cluster 817 
+Done cluster 896 
+Done cluster 1713 
+Done cluster 963 
+Done cluster 2676 
+Done cluster 12805 
+Done cluster 27905 
+Cluster size 23049 broken into 14781 8268 
+Cluster size 14781 broken into 9002 5779 
+Cluster size 9002 broken into 4728 4274 
+Cluster size 4728 broken into 2165 2563 
+Cluster size 2165 broken into 827 1338 
+Done cluster 827 
+Done cluster 1338 
+Done cluster 2165 
+Cluster size 2563 broken into 1272 1291 
+Done cluster 1272 
+Done cluster 1291 
+Done cluster 2563 
+Done cluster 4728 
+Cluster size 4274 broken into 2634 1640 
+Cluster size 2634 broken into 1012 1622 
+Done cluster 1012 
+Cluster size 1622 broken into 672 950 
+Done cluster 672 
+Done cluster 950 
+Done cluster 1622 
+Done cluster 2634 
+Cluster size 1640 broken into 1034 606 
+Done cluster 1034 
+Done cluster 606 
+Done cluster 1640 
+Done cluster 4274 
+Done cluster 9002 
+Cluster size 5779 broken into 1285 4494 
+Done cluster 1285 
+Cluster size 4494 broken into 3025 1469 
+Cluster size 3025 broken into 1512 1513 
+Cluster size 1512 broken into 934 578 
+Done cluster 934 
+Done cluster 578 
+Done cluster 1512 
+Cluster size 1513 broken into 793 720 
+Done cluster 793 
+Done cluster 720 
+Done cluster 1513 
+Done cluster 3025 
+Done cluster 1469 
+Done cluster 4494 
+Done cluster 5779 
+Done cluster 14781 
+Cluster size 8268 broken into 3499 4769 
+Cluster size 3499 broken into 2502 997 
+Cluster size 2502 broken into 601 1901 
+Done cluster 601 
+Cluster size 1901 broken into 1375 526 
+Done cluster 1375 
+Done cluster 526 
+Done cluster 1901 
+Done cluster 2502 
+Done cluster 997 
+Done cluster 3499 
+Cluster size 4769 broken into 1634 3135 
+Cluster size 1634 broken into 432 1202 
+Done cluster 432 
+Done cluster 1202 
+Done cluster 1634 
+Cluster size 3135 broken into 1301 1834 
+Done cluster 1301 
+Cluster size 1834 broken into 999 835 
+Done cluster 999 
+Done cluster 835 
+Done cluster 1834 
+Done cluster 3135 
+Done cluster 4769 
+Done cluster 8268 
+Done cluster 23049 
+Done cluster 50954 
+Cluster size 52378 broken into 21422 30956 
+Cluster size 21422 broken into 8673 12749 
+Cluster size 8673 broken into 6244 2429 
+Cluster size 6244 broken into 891 5353 
+Done cluster 891 
+Cluster size 5353 broken into 2478 2875 
+Cluster size 2478 broken into 982 1496 
+Done cluster 982 
+Done cluster 1496 
+Done cluster 2478 
+Cluster size 2875 broken into 952 1923 
+Done cluster 952 
+Cluster size 1923 broken into 1000 923 
+Done cluster 1000 
+Done cluster 923 
+Done cluster 1923 
+Done cluster 2875 
+Done cluster 5353 
+Done cluster 6244 
+Cluster size 2429 broken into 1096 1333 
+Done cluster 1096 
+Done cluster 1333 
+Done cluster 2429 
+Done cluster 8673 
+Cluster size 12749 broken into 6437 6312 
+Cluster size 6437 broken into 2523 3914 
+Cluster size 2523 broken into 525 1998 
+Done cluster 525 
+Cluster size 1998 broken into 937 1061 
+Done cluster 937 
+Done cluster 1061 
+Done cluster 1998 
+Done cluster 2523 
+Cluster size 3914 broken into 2758 1156 
+Cluster size 2758 broken into 1895 863 
+Cluster size 1895 broken into 895 1000 
+Done cluster 895 
+Done cluster 1000 
+Done cluster 1895 
+Done cluster 863 
+Done cluster 2758 
+Done cluster 1156 
+Done cluster 3914 
+Done cluster 6437 
+Cluster size 6312 broken into 2291 4021 
+Cluster size 2291 broken into 1297 994 
+Done cluster 1297 
+Done cluster 994 
+Done cluster 2291 
+Cluster size 4021 broken into 1294 2727 
+Done cluster 1294 
+Cluster size 2727 broken into 1199 1528 
+Done cluster 1199 
+Cluster size 1528 broken into 1039 489 
+Done cluster 1039 
+Done cluster 489 
+Done cluster 1528 
+Done cluster 2727 
+Done cluster 4021 
+Done cluster 6312 
+Done cluster 12749 
+Done cluster 21422 
+Cluster size 30956 broken into 16033 14923 
+Cluster size 16033 broken into 10790 5243 
+Cluster size 10790 broken into 5058 5732 
+Cluster size 5058 broken into 4606 452 
+Cluster size 4606 broken into 2141 2465 
+Cluster size 2141 broken into 1456 685 
+Done cluster 1456 
+Done cluster 685 
+Done cluster 2141 
+Cluster size 2465 broken into 1312 1153 
+Done cluster 1312 
+Done cluster 1153 
+Done cluster 2465 
+Done cluster 4606 
+Done cluster 452 
+Done cluster 5058 
+Cluster size 5732 broken into 2839 2893 
+Cluster size 2839 broken into 1596 1243 
+Cluster size 1596 broken into 919 677 
+Done cluster 919 
+Done cluster 677 
+Done cluster 1596 
+Done cluster 1243 
+Done cluster 2839 
+Cluster size 2893 broken into 1499 1394 
+Done cluster 1499 
+Done cluster 1394 
+Done cluster 2893 
+Done cluster 5732 
+Done cluster 10790 
+Cluster size 5243 broken into 2119 3124 
+Cluster size 2119 broken into 126 1993 
+Done cluster 126 
+Cluster size 1993 broken into 702 1291 
+Done cluster 702 
+Done cluster 1291 
+Done cluster 1993 
+Done cluster 2119 
+Cluster size 3124 broken into 1696 1428 
+Cluster size 1696 broken into 246 1450 
+Done cluster 246 
+Done cluster 1450 
+Done cluster 1696 
+Done cluster 1428 
+Done cluster 3124 
+Done cluster 5243 
+Done cluster 16033 
+Cluster size 14923 broken into 9842 5081 
+Cluster size 9842 broken into 4142 5700 
+Cluster size 4142 broken into 3161 981 
+Cluster size 3161 broken into 1021 2140 
+Done cluster 1021 
+Cluster size 2140 broken into 1132 1008 
+Done cluster 1132 
+Done cluster 1008 
+Done cluster 2140 
+Done cluster 3161 
+Done cluster 981 
+Done cluster 4142 
+Cluster size 5700 broken into 2430 3270 
+Cluster size 2430 broken into 1682 748 
+Cluster size 1682 broken into 790 892 
+Done cluster 790 
+Done cluster 892 
+Done cluster 1682 
+Done cluster 748 
+Done cluster 2430 
+Cluster size 3270 broken into 1765 1505 
+Cluster size 1765 broken into 687 1078 
+Done cluster 687 
+Done cluster 1078 
+Done cluster 1765 
+Cluster size 1505 broken into 621 884 
+Done cluster 621 
+Done cluster 884 
+Done cluster 1505 
+Done cluster 3270 
+Done cluster 5700 
+Done cluster 9842 
+Cluster size 5081 broken into 1734 3347 
+Cluster size 1734 broken into 1486 248 
+Done cluster 1486 
+Done cluster 248 
+Done cluster 1734 
+Cluster size 3347 broken into 1639 1708 
+Cluster size 1639 broken into 1521 118 
+Cluster size 1521 broken into 758 763 
+Done cluster 758 
+Done cluster 763 
+Done cluster 1521 
+Done cluster 118 
+Done cluster 1639 
+Cluster size 1708 broken into 1007 701 
+Done cluster 1007 
+Done cluster 701 
+Done cluster 1708 
+Done cluster 3347 
+Done cluster 5081 
+Done cluster 14923 
+Done cluster 30956 
+Done cluster 52378 
+Done cluster 103332 
+Done cluster 162191 
+Cluster size 97709 broken into 46138 51571 
+Cluster size 46138 broken into 29097 17041 
+Cluster size 29097 broken into 17771 11326 
+Cluster size 17771 broken into 11965 5806 
+Cluster size 11965 broken into 4459 7506 
+Cluster size 4459 broken into 2088 2371 
+Cluster size 2088 broken into 838 1250 
+Done cluster 838 
+Done cluster 1250 
+Done cluster 2088 
+Cluster size 2371 broken into 911 1460 
+Done cluster 911 
+Done cluster 1460 
+Done cluster 2371 
+Done cluster 4459 
+Cluster size 7506 broken into 4111 3395 
+Cluster size 4111 broken into 1965 2146 
+Cluster size 1965 broken into 1089 876 
+Done cluster 1089 
+Done cluster 876 
+Done cluster 1965 
+Cluster size 2146 broken into 1346 800 
+Done cluster 1346 
+Done cluster 800 
+Done cluster 2146 
+Done cluster 4111 
+Cluster size 3395 broken into 1691 1704 
+Cluster size 1691 broken into 855 836 
+Done cluster 855 
+Done cluster 836 
+Done cluster 1691 
+Cluster size 1704 broken into 904 800 
+Done cluster 904 
+Done cluster 800 
+Done cluster 1704 
+Done cluster 3395 
+Done cluster 7506 
+Done cluster 11965 
+Cluster size 5806 broken into 1070 4736 
+Done cluster 1070 
+Cluster size 4736 broken into 2988 1748 
+Cluster size 2988 broken into 770 2218 
+Done cluster 770 
+Cluster size 2218 broken into 1404 814 
+Done cluster 1404 
+Done cluster 814 
+Done cluster 2218 
+Done cluster 2988 
+Cluster size 1748 broken into 761 987 
+Done cluster 761 
+Done cluster 987 
+Done cluster 1748 
+Done cluster 4736 
+Done cluster 5806 
+Done cluster 17771 
+Cluster size 11326 broken into 3878 7448 
+Cluster size 3878 broken into 1808 2070 
+Cluster size 1808 broken into 890 918 
+Done cluster 890 
+Done cluster 918 
+Done cluster 1808 
+Cluster size 2070 broken into 658 1412 
+Done cluster 658 
+Done cluster 1412 
+Done cluster 2070 
+Done cluster 3878 
+Cluster size 7448 broken into 2528 4920 
+Cluster size 2528 broken into 1286 1242 
+Done cluster 1286 
+Done cluster 1242 
+Done cluster 2528 
+Cluster size 4920 broken into 2619 2301 
+Cluster size 2619 broken into 1230 1389 
+Done cluster 1230 
+Done cluster 1389 
+Done cluster 2619 
+Cluster size 2301 broken into 2055 246 
+Cluster size 2055 broken into 1025 1030 
+Done cluster 1025 
+Done cluster 1030 
+Done cluster 2055 
+Done cluster 246 
+Done cluster 2301 
+Done cluster 4920 
+Done cluster 7448 
+Done cluster 11326 
+Done cluster 29097 
+Cluster size 17041 broken into 7461 9580 
+Cluster size 7461 broken into 4056 3405 
+Cluster size 4056 broken into 1588 2468 
+Cluster size 1588 broken into 778 810 
+Done cluster 778 
+Done cluster 810 
+Done cluster 1588 
+Cluster size 2468 broken into 1508 960 
+Cluster size 1508 broken into 621 887 
+Done cluster 621 
+Done cluster 887 
+Done cluster 1508 
+Done cluster 960 
+Done cluster 2468 
+Done cluster 4056 
+Cluster size 3405 broken into 1492 1913 
+Done cluster 1492 
+Cluster size 1913 broken into 1074 839 
+Done cluster 1074 
+Done cluster 839 
+Done cluster 1913 
+Done cluster 3405 
+Done cluster 7461 
+Cluster size 9580 broken into 4348 5232 
+Cluster size 4348 broken into 2186 2162 
+Cluster size 2186 broken into 1353 833 
+Done cluster 1353 
+Done cluster 833 
+Done cluster 2186 
+Cluster size 2162 broken into 1292 870 
+Done cluster 1292 
+Done cluster 870 
+Done cluster 2162 
+Done cluster 4348 
+Cluster size 5232 broken into 3353 1879 
+Cluster size 3353 broken into 1368 1985 
+Done cluster 1368 
+Cluster size 1985 broken into 1173 812 
+Done cluster 1173 
+Done cluster 812 
+Done cluster 1985 
+Done cluster 3353 
+Cluster size 1879 broken into 950 929 
+Done cluster 950 
+Done cluster 929 
+Done cluster 1879 
+Done cluster 5232 
+Done cluster 9580 
+Done cluster 17041 
+Done cluster 46138 
+Cluster size 51571 broken into 29158 22413 
+Cluster size 29158 broken into 14845 14313 
+Cluster size 14845 broken into 9034 5811 
+Cluster size 9034 broken into 4323 4711 
+Cluster size 4323 broken into 2775 1548 
+Cluster size 2775 broken into 1542 1233 
+Cluster size 1542 broken into 934 608 
+Done cluster 934 
+Done cluster 608 
+Done cluster 1542 
+Done cluster 1233 
+Done cluster 2775 
+Cluster size 1548 broken into 736 812 
+Done cluster 736 
+Done cluster 812 
+Done cluster 1548 
+Done cluster 4323 
+Cluster size 4711 broken into 1908 2803 
+Cluster size 1908 broken into 839 1069 
+Done cluster 839 
+Done cluster 1069 
+Done cluster 1908 
+Cluster size 2803 broken into 1605 1198 
+Cluster size 1605 broken into 717 888 
+Done cluster 717 
+Done cluster 888 
+Done cluster 1605 
+Done cluster 1198 
+Done cluster 2803 
+Done cluster 4711 
+Done cluster 9034 
+Cluster size 5811 broken into 2644 3167 
+Cluster size 2644 broken into 1191 1453 
+Done cluster 1191 
+Done cluster 1453 
+Done cluster 2644 
+Cluster size 3167 broken into 1697 1470 
+Cluster size 1697 broken into 903 794 
+Done cluster 903 
+Done cluster 794 
+Done cluster 1697 
+Done cluster 1470 
+Done cluster 3167 
+Done cluster 5811 
+Done cluster 14845 
+Cluster size 14313 broken into 7087 7226 
+Cluster size 7087 broken into 3918 3169 
+Cluster size 3918 broken into 2421 1497 
+Cluster size 2421 broken into 965 1456 
+Done cluster 965 
+Done cluster 1456 
+Done cluster 2421 
+Done cluster 1497 
+Done cluster 3918 
+Cluster size 3169 broken into 2014 1155 
+Cluster size 2014 broken into 1040 974 
+Done cluster 1040 
+Done cluster 974 
+Done cluster 2014 
+Done cluster 1155 
+Done cluster 3169 
+Done cluster 7087 
+Cluster size 7226 broken into 4534 2692 
+Cluster size 4534 broken into 2261 2273 
+Cluster size 2261 broken into 1093 1168 
+Done cluster 1093 
+Done cluster 1168 
+Done cluster 2261 
+Cluster size 2273 broken into 1454 819 
+Done cluster 1454 
+Done cluster 819 
+Done cluster 2273 
+Done cluster 4534 
+Cluster size 2692 broken into 1315 1377 
+Done cluster 1315 
+Done cluster 1377 
+Done cluster 2692 
+Done cluster 7226 
+Done cluster 14313 
+Done cluster 29158 
+Cluster size 22413 broken into 9575 12838 
+Cluster size 9575 broken into 3790 5785 
+Cluster size 3790 broken into 2147 1643 
+Cluster size 2147 broken into 847 1300 
+Done cluster 847 
+Done cluster 1300 
+Done cluster 2147 
+Cluster size 1643 broken into 646 997 
+Done cluster 646 
+Done cluster 997 
+Done cluster 1643 
+Done cluster 3790 
+Cluster size 5785 broken into 3310 2475 
+Cluster size 3310 broken into 1725 1585 
+Cluster size 1725 broken into 827 898 
+Done cluster 827 
+Done cluster 898 
+Done cluster 1725 
+Cluster size 1585 broken into 800 785 
+Done cluster 800 
+Done cluster 785 
+Done cluster 1585 
+Done cluster 3310 
+Cluster size 2475 broken into 1295 1180 
+Done cluster 1295 
+Done cluster 1180 
+Done cluster 2475 
+Done cluster 5785 
+Done cluster 9575 
+Cluster size 12838 broken into 7692 5146 
+Cluster size 7692 broken into 3228 4464 
+Cluster size 3228 broken into 1457 1771 
+Done cluster 1457 
+Cluster size 1771 broken into 906 865 
+Done cluster 906 
+Done cluster 865 
+Done cluster 1771 
+Done cluster 3228 
+Cluster size 4464 broken into 2362 2102 
+Cluster size 2362 broken into 1034 1328 
+Done cluster 1034 
+Done cluster 1328 
+Done cluster 2362 
+Cluster size 2102 broken into 1031 1071 
+Done cluster 1031 
+Done cluster 1071 
+Done cluster 2102 
+Done cluster 4464 
+Done cluster 7692 
+Cluster size 5146 broken into 3286 1860 
+Cluster size 3286 broken into 2206 1080 
+Cluster size 2206 broken into 1209 997 
+Done cluster 1209 
+Done cluster 997 
+Done cluster 2206 
+Done cluster 1080 
+Done cluster 3286 
+Cluster size 1860 broken into 976 884 
+Done cluster 976 
+Done cluster 884 
+Done cluster 1860 
+Done cluster 5146 
+Done cluster 12838 
+Done cluster 22413 
+Done cluster 51571 
+Done cluster 97709 
+Done cluster 259900 

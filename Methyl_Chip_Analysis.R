@@ -24,7 +24,7 @@ command = matrix(c("import","F",1,"character","数据类型是否为β矩阵",
                    "dmrcores","DC",1,"integer","DMR计算核数，只对Bumphunter和DMRcate参数有效",
                    "maxGap","MG",1,"integer","DMR最大长度，大于该长度的region将会被忽略",
                    "adjPprobe","APP",1,"double","探针是否被包含在DMR中的最小P值",
-                   "bpScan","BS",1,"integer","DMB的最大范围，超出此值得DMB将被忽略",
+                   "bpSpan","BS",1,"integer","DMB的最大范围，超出此值得DMB将被忽略",
                    "compareGroup","CG",2,'character',"比较组",
                    "gseaMethod","GM",1,'character','gometh,fisher,ebayes',
                    "gseaPvalue",'GP',1,'double','显著富集的Padj阈值',
@@ -82,7 +82,7 @@ if(import=="false"){
 
 options("shiny.host" = "127.0.0.1")
 options("shiny.port" = 5686)
-cpggui <- CpG.GUI(CpG = rownames(myLoad$beta), arraytype = arraytype)
+#cpggui <- CpG.GUI(CpG = rownames(myLoad$beta), arraytype = arraytype)
 
 
 ## 质控步骤
@@ -91,7 +91,7 @@ analysisdir = paste(directory,"/raw_",analysis,"/",sep = "")
 champ.QC(beta = myLoad$beta, pheno = myLoad$pd$Sample_Group, 
          resultsDir = analysisdir)
 #### 除了使用champ.QC外，还可以使用QC.GUI来进行交互式可视化，它会展示5个图
-QC.GUI(beta = myLoad$beta, pheno = myLoad$pd$Sample_Group, arraytype = arraytype)
+#QC.GUI(beta = myLoad$beta, pheno = myLoad$pd$Sample_Group, arraytype = arraytype)
 
 ## 对II型探针产生的β值进行标准化。标准化和数据导入方法有关系
 normmethod = args$normmethod
@@ -108,12 +108,12 @@ if (method == "minfi"){
     print("WRONG NORMALIZE METHOD,PLEASE CHECK YOUR CONFIG FILE")
     stop()
   }
-}else if(method == "ShAMP" || method == "NA"){
-  if(method == "BMIQ"){
+}else if(method == "ChAMP" || method == "NA"){
+  if(normmethod == "BMIQ"){
     cores = args$cores
     myNorm <- champ.norm(beta = myLoad$beta, arraytype = arraytype, cores = cores,
                          resultsDir = resultdir, plotBMIQ = T)
-  }else if(method == "PBC"){
+  }else if(normmethod == "PBC"){
     myNorm <- champ.norm(beta = myLoad$beta, arraytype = arraytype, resultsDir = resultsDir,
                          method = normmethod)
   }else{
@@ -138,13 +138,14 @@ if (method == "minfi"){
 ## 校正批效应
 #### logitTrans设置为T，但如果是M矩阵，该值应该设置为F
 #### pd文件的Slide列必不可少
-myCombat <- champ.runCombat(beta = myNorm, pd = myLoad$pd, variablename = "Sample_Group",
-                            batchname = c("Slide"), logitTrans = T)
+#myCombat <- champ.runCombat(beta = myNorm, pd = myLoad$pd, variablename = "Sample_Group",
+                            #logitTrans = T)
+                            #batchname = c("Sample_Group"), logitTrans = T)
 ## 差显探针鉴定
 diffexprprobeP = args$diffexprprobeP
 myDMP <- champ.DMP(beta = myNorm, pheno = myLoad$pd$Sample_Group, adjPVal = diffexprprobeP,
                    arraytype = arraytype)
-DMR.GUI(DMR = myDMP[[1]], beta = myNorm, pheno = myLoad$pd$Sample_Group, cutgroupnumber = 4)
+#DMR.GUI(DMR = myDMP[[1]], beta = myNorm, pheno = myLoad$pd$Sample_Group, cutgroupnumber = 4)
 #### 保存每组的差显结果
 myDMPnames = names(myDMP)
 for(i in 1:length(myDMP)){
@@ -158,6 +159,7 @@ minprobe = args$minProbe
 diffexprregionP = args$diffexprregionP
 adjPprobe = args$adjPprobe
 maxGap = args$maxGap
+dmrcores = args$dmrcores
 dmrresultdir = paste(directory, "/CHAMP_ProbeLasso/", sep = "")
 if (dmrmethod == "ProbeLasso"){
   phenonum <- length(levels(factor(myLoad$pd$Sample_Group)))
@@ -168,13 +170,13 @@ if (dmrmethod == "ProbeLasso"){
   }
   myDMR <- champ.DMR(beta = myNorm, pheno = myLoad$pd$Sample_Group, arraytype = arraytype,
                    method = dmrmethod, minProbes = minprobe, adjPvalDmr = diffexprregionP,
-                   maxGap = maxGap, adjPvalProbe = adjPprobe, resultDir = dmrresultdir)
+                   maxGap = maxGap, adjPvalProbe = adjPprobe, resultsDir = dmrresultdir)
 }else if(dmrmethod == "Bumphunter" || dmrmethod == "DMRcate"){
   cores = args$dmrcores
   myDMR <- champ.DMR(beta = myNorm, pheno = myLoad$pd$Sample_Group, arraytype = arraytype,
                      method = dmrmethod, minProbes = minprobe, adjPvalDmr = diffexprregionP,
                      cores = dmrcores, maxGap = maxGap, adjPvalProbe = adjPprobe,
-                     resultDir = dmrresultdir)
+                     resultsDir = dmrresultdir)
 }else{
   print("MDR Calculating ERROR!!!")
   print("PLEASE CHECK YOUR DATA LOADING METHOD!!!")
@@ -183,16 +185,17 @@ if (dmrmethod == "ProbeLasso"){
 
 #### DMR可视化
 if(compNums == 1){
-  DMR.GUI(DMR = myDMR,beta = myNorm, pheno = myLoad$pd$Sample_Name,
-          rumDMP = T, arraytype = arraytype)
+  #DMR.GUI(DMR = myDMR,beta = myNorm, pheno = myLoad$pd$Sample_Name,
+          #rumDMP = T, arraytype = arraytype)
+  print("Continue...")
 }else{
   for(i in 1:compNums){
     comp = strsplit(compGroups[[1]][i],"_vs_")
     print(paste(comp, "group was plotted by shiny..."), sep = " ")
     group1 = comp[[1]][1]
     group2 = comp[[1]][2]
-    DMR.GUI(DMR = myDMR,beta = myNorm, pheno = myLoad$pd$Sample_Name,
-            rumDMP = T, arraytype = arraytype, compare.group = c(group1, group2))
+    #DMR.GUI(DMR = myDMR,beta = myNorm, pheno = myLoad$pd$Sample_Name,
+            #rumDMP = T, arraytype = arraytype, compare.group = c(group1, group2))
   }
 }
 #### 保存DMR结果
@@ -205,20 +208,23 @@ for(i in 1:length(myDMR)){
 ## 差显block
 bpSpan = args$bpSpan
 cores = args$dmrcores
-myBlock <- champ.Block(beta = mNorm, pheno = myLoad$pd$Sample_Group, arraytype = arraytype,
+print(myNorm)
+print(c(myLoad$pd$Sample_Group, arraytype, bpSpan, cores))
+myBlock <- champ.Block(beta = myNorm, pheno = myLoad$pd$Sample_Group, arraytype = arraytype,
                        bpSpan = bpSpan, cores = cores)
 #### 差显block的可视化
 if(compNums == 1){
-  Block.GUI(Block = myBlock, beta = myNorm, pheno = myLoad$pd$Sample_Group,
-            runDMP = T, )
+  #Block.GUI(Block = myBlock, beta = myNorm, pheno = myLoad$pd$Sample_Group,
+            #runDMP = T)
+  print("Continue...")
 }else{
   for(i in 1:compNums){
     comp = strsplit(compGroups[[1]][i],"_vs_")
     print(paste(comp, "group was plotted by shiny...", sep = " "))
     group1 = comp[[1]][1]
     group2 = comp[[1]][2]
-    Block.GUI(Block = myBlock, beta = myNorm, pheno = myLoad$pd$Sample_Group,
-              runDMP = T, compare.group = c(group1, group2))
+    #Block.GUI(Block = myBlock, beta = myNorm, pheno = myLoad$pd$Sample_Group,
+              #runDMP = T, compare.group = c(group1, group2))
   }
 }
 #### 输出差显block结果
@@ -231,12 +237,10 @@ for(i in 1:length(myBlock)){
 ## DMR和DMP的GSEA富集分析
 gseamethod = args$gseaMethod
 gseaPvalue = args$gseaPvalue
+print(c(gseamethod, gseaPvalue))
 if(gseamethod == "gometh" || gseamethod == "fisher"){
-  myGSEA <- champ.GSEA(beta = myNorm, DMP = myDMP[[1]], DMR = myDMR[[1]],
+  myGSEA <- champ.GSEA(beta = myNorm, DMP = myDMP[[1]], DMR = myDMR,
                       method = gseamethod, arraytype = arraytype, adjPval = gseaPvalue) 
-#}else if(gseamethod == "ebayes"){
-  #myGSEA <- champ.ebayGSEA(beta = myNorm, pheno = myLoad$pd$Sample_Group, 
-                           #arraytype = arraytype, adjPval = gseaPvalue)
 }else{
   print("GSEA Calculating ERROR!!!")
   print("PLEASE CHECK YOUR DATA LOADING METHOD!!!")
@@ -251,7 +255,7 @@ write.table(myGSEA$DMR, gseadmrfile, sep="\t", quote = F)
 
 ## 差显甲基化互作位点
 resultdir <- paste(directory, "/CHAMP_EpiMod/", sep = "")
-myEpiMod <- champ.EpiMod(beta = myNorm, pheno = myLoad$pd$Sample_Group, resultsDir = resultsdir,
+myEpiMod <- champ.EpiMod(beta = myNorm, pheno = myLoad$pd$Sample_Group, resultsDir = resultdir,
                          arraytype = arraytype)
 
 ## 拷贝数变
