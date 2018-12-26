@@ -285,4 +285,5 @@ if(cellType == "blood"){
   filename = paste(directory, "/", myRefBasenames[1], "cellType.CorrectedBeta.txt", sep = "")
   write.table(myRefBase$CorrectedBeta, filename, sep = "\t", quote = F)
 }
-
+## 保存当前工作环境
+save.image(file = paste(directory, "/", analysis, ".RData", sep = ""))
