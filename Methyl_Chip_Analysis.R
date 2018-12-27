@@ -145,7 +145,7 @@ if (method == "minfi"){
 diffexprprobeP = args$diffexprprobeP
 myDMP <- champ.DMP(beta = myNorm, pheno = myLoad$pd$Sample_Group, adjPVal = diffexprprobeP,
                    arraytype = arraytype)
-#DMR.GUI(DMR = myDMP[[1]], beta = myNorm, pheno = myLoad$pd$Sample_Group, cutgroupnumber = 4)
+#DMP.GUI(DMR = myDMP[[1]], beta = myNorm, pheno = myLoad$pd$Sample_Group, cutgroupnumber = 4)
 #### 保存每组的差显结果
 myDMPnames = names(myDMP)
 for(i in 1:length(myDMP)){
